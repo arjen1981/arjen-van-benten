@@ -23,6 +23,7 @@ npm run develop
 
 ## Deploy to Netlify
 
+``` bash
 # Then you can run it by
 npm run build
 
@@ -31,6 +32,7 @@ npm i -g netlify-cli
 
 # Deploy to Netlify
 netlify deploy
+```
 
 ## Deploy to Azure
 
