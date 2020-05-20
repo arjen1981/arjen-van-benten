@@ -21,6 +21,17 @@ npm install
 npm run develop
 ```
 
+## Deploy to Netlify
+
+# Then you can run it by
+npm run build
+
+# Make sure that you have the Netlify CLI installed
+npm i -g netlify-cli
+
+# Deploy to Netlify
+netlify deploy
+
 ## Deploy to Azure
 
 > ToDo
