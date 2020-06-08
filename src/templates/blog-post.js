@@ -39,6 +39,16 @@ class BlogPostTemplate extends React.Component {
               height: ${rhythm(13)};
             }
           }
+          .full-size {
+            width: calc(100% + ${rhythm(8)});
+            margin-left: ${rhythm(-4)};
+          }
+          @media (max-width: ${rhythm(32)}) {
+            .full-size {
+              width: calc(100% + ${rhythm((3 / 4) * 2)});
+              margin-left: ${rhythm(-3 / 4)};
+            }
+          }
         `}
         </style>
         <Helmet title={`${post.title} | ${siteTitle}`} />
