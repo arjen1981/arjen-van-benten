@@ -175,6 +175,7 @@ export default ({ children, location }) => (
               style={{
                 color: '#191919',
                 boxShadow: 'none',
+                whiteSpace: 'nowrap',
               }}
             >
               <img
